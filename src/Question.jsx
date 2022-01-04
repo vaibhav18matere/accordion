@@ -1,12 +1,16 @@
 import React from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-const Question = () => {
+const Question = ({ title, info }) => {
   return (
-    <>
-      <h2>question compnent</h2>
-      <AiOutlineMinus />
-      <AiOutlinePlus />
-    </>
+    <article className="question">
+      <header>
+        <AiOutlinePlus />
+        <h4>{title}</h4>
+        <button className="btn">Btn</button>
+        <AiOutlineMinus />
+      </header>
+      <p>{info}</p>
+    </article>
   );
 };
 
