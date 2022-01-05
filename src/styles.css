@@ -107,6 +107,7 @@ main {
 .container h3 {
   line-height: 1.2;
   font-weight: 500;
+  color: black;
 }
 
 @media screen and (min-width: 992px) {
@@ -139,7 +140,7 @@ main {
 }
 .question header h4 {
   margin-bottom: 0;
-  color: purple;
+  color: black;
 }
 .btn {
   background: transparent;
