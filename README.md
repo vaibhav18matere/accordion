@@ -1,2 +1,3 @@
-# tours-planner-web-app
-Created with CodeSandbox
+# accordion
+- Technology used : HTML, CSS, React.JS
+- Live project link : https://lnkd.in/dhZeRFA7
