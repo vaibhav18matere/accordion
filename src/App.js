@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./styles.css";
-import Question from "./Question";
+import SingleQuestion from "./Question";
 import data from "./data";
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
       <h3>Simple question and answers about login</h3>
       <section className="info">
         {questions.map((question) => {
-          return <Question key={questions.id} {...questions} />;
+          return <SingleQuestion key={question.id} {...question} />;
         })}
       </section>
     </div>
